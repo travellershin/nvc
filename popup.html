@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>체어래빗</title>
+    <link rel="stylesheet" type="text/css" href="styles/init.css">
+    <link rel="stylesheet" type="text/css" href="styles/popup.css">
+    <link rel="stylesheet" type="text/css" href="styles/firebaseauth.css">
+</head>
+<body>
+    <div class="wrapper">
+        <select id="cityCode">
+            <option value="las">라스베가스</option>
+            <option value="nyc">뉴욕</option>
+        </select>
+        <div class="site" id="unknown">사이트 감지중...</div>
+        <div class="private"></div>
+        <button type="button" class="start">추출 시작</button>
+    </div>
+
+    <script src="firebase.js"></script>
+    <script src="firebaseauth.js"></script>
+
+    <script src='crawler/naver.js'></script>
+    <script src='jquery.js'></script>
+    <script src='popup.js'></script>
+
+</body>

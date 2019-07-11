@@ -1,0 +1,41 @@
+html{
+    overflow-x:hidden;
+    width:100%;
+    min-width:420px;
+}
+body{
+    width:100%;
+    letter-spacing: -0.5px;
+    padding:12px;
+
+}
+input{
+    border-style:none;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul,li,div,html,body,img,a,input{
+  margin:0;
+  padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+
+ul,li{
+  list-style:none;
+}
+.displayNone{
+    display: none;
+}
+
+p,h1 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+input:focus {
+  outline: none;
+}

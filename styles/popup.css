@@ -1,0 +1,23 @@
+.wrapper{
+    padding:12px;
+}
+.site{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cityCode{
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+}
+
+.start{
+    height: 30px;
+    width: 80px;
+    margin-left: 12px;
+    background-color: white;
+}
